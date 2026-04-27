@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-27T06:46:44.811Z",
+  "members": [
+    {
+      "handle": "alice",
+      "reviewer_tier": "R2",
+      "author_tier": "A1",
+      "clock": {
+        "rings": [
+          42,
+          18,
+          24,
+          8,
+          12,
+          15
+        ],
+        "streak": 5,
+        "longest_streak": 12,
+        "total_hours": 119,
+        "status": "active",
+        "fold": "7207200",
+        "sig": [
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "handle": "bob",
+      "reviewer_tier": "R1",
+      "author_tier": "A2",
+      "clock": {
+        "rings": [
+          22,
+          8,
+          6,
+          4,
+          5,
+          10
+        ],
+        "streak": 3,
+        "longest_streak": 9,
+        "total_hours": 55,
+        "status": "active",
+        "fold": "720",
+        "sig": [
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "handle": "carol",
+      "reviewer_tier": "R3",
+      "author_tier": "A2",
+      "clock": {
+        "rings": [
+          10,
+          5,
+          8,
+          6,
+          4,
+          3
+        ],
+        "streak": 3,
+        "longest_streak": 7,
+        "total_hours": 36,
+        "status": "cooling",
+        "fold": "840",
+        "sig": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "handle": "dave",
+      "reviewer_tier": "R1",
+      "author_tier": "A3",
+      "clock": {
+        "rings": [
+          3,
+          0,
+          1,
+          0,
+          2,
+          1
+        ],
+        "streak": 0,
+        "longest_streak": 4,
+        "total_hours": 7,
+        "status": "dormant",
+        "fold": "4",
+        "sig": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

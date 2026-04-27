@@ -1,0 +1,37 @@
+name: GLOCK Tick
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Compute streaks
+        run: node src/tick.js --streaks
+
+      - name: Apply decay
+        run: node src/tick.js --decay
+
+      - name: Fold blooms
+        run: node src/tick.js --bloom
+
+      - name: Rebuild leaderboard
+        run: node src/tick.js --leaderboard
+
+      - name: Commit tick
+        run: |
+          git config user.name  "glock-bot"
+          git config user.email "glock@acg"
+          git add -A
+          git diff --staged --quiet || git commit -m "⚒ tick $(date -u +%Y-%m-%d)"
+          git push

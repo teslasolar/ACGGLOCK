@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "primorial_cap": 510510,
+  "shift_types": {
+    "review":     { "ring": 0, "points_per_hour": 20, "color": "#58a6ff" },
+    "author":     { "ring": 1, "points_per_hour": 15, "color": "#bc8cff" },
+    "roundtable": { "ring": 2, "points_per_hour": 25, "color": "#e3b341" },
+    "mentor":     { "ring": 3, "points_per_hour": 30, "color": "#3fb950" },
+    "build":      { "ring": 4, "points_per_hour": 20, "color": "#d29922" },
+    "evaluate":   { "ring": 5, "points_per_hour": 25, "color": "#f85149" }
+  },
+  "ring_colors": [
+    "#58a6ff",
+    "#bc8cff",
+    "#e3b341",
+    "#3fb950",
+    "#d29922",
+    "#f85149",
+    "#c9d1d9"
+  ],
+  "ring_labels": [
+    "review", "author", "roundtable", "mentor", "build", "evaluate", "total"
+  ],
+  "anti_gaming": {
+    "max_shift_minutes": 720,
+    "min_shift_minutes": 5,
+    "same_type_cooldown_minutes": 30,
+    "type_required": true,
+    "overlap_allowed": false,
+    "future_dates_allowed": false
+  },
+  "streak": {
+    "active_window_days": 7,
+    "cooling_window_days": 14,
+    "dormant_after_days": 15
+  },
+  "bloom": {
+    "primes": [2, 3, 5, 7, 11, 13, 17],
+    "primorial": 510510,
+    "max_exponent": 16
+  },
+  "achievements": [
+    { "id": "first_punch",  "name": "First Punch",  "icon": "⏱", "rarity": "common",     "trigger": "shift_count >= 1" },
+    { "id": "full_day",     "name": "Full Day",     "icon": "☀",  "rarity": "common",     "trigger": "max_day_hours >= 8" },
+    { "id": "night_owl",    "name": "Night Owl",    "icon": "🦉", "rarity": "uncommon",   "trigger": "shift_in_window 0-6" },
+    { "id": "early_bird",   "name": "Early Bird",   "icon": "🐦", "rarity": "uncommon",   "trigger": "shift_starts_before 7" },
+    { "id": "marathon",     "name": "Marathon",     "icon": "🏃", "rarity": "uncommon",   "trigger": "max_shift_hours >= 4" },
+    { "id": "the_streak",   "name": "The Streak",   "icon": "🔥", "rarity": "rare",       "trigger": "streak >= 12" },
+    { "id": "all_rings",    "name": "All Rings",    "icon": "💍", "rarity": "rare",       "trigger": "rings_filled >= 6" },
+    { "id": "time_lord",    "name": "Time Lord",    "icon": "⌛", "rarity": "rare",       "trigger": "total_hours >= 500" },
+    { "id": "clock_tower",  "name": "Clock Tower",  "icon": "🏰", "rarity": "epic",       "trigger": "total_hours >= 1000" },
+    { "id": "primorial",    "name": "Primorial",    "icon": "⚒",  "rarity": "legendary",  "trigger": "fold >= 510510" }
+  ],
+  "shift_definitions": [
+    { "type": "roundtable", "weekday": 4, "hour_utc": 17, "duration_minutes": 60, "label": "Weekly Guild Roundtable" },
+    { "type": "review",     "weekday": 1, "hour_utc": 14, "duration_minutes": 90, "label": "Review Office Hours" }
+  ]
+}

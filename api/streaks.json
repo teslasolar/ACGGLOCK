@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-27T06:46:44.811Z",
+  "streaks": [
+    {
+      "member": "alice",
+      "current": 5,
+      "longest": 12,
+      "last_active": "2026-04-26T14:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "member": "bob",
+      "current": 3,
+      "longest": 9,
+      "last_active": "2026-04-27T03:30:00.000Z",
+      "status": "active"
+    },
+    {
+      "member": "carol",
+      "current": 3,
+      "longest": 7,
+      "last_active": "2026-04-17T11:00:00.000Z",
+      "status": "cooling"
+    },
+    {
+      "member": "dave",
+      "current": 2,
+      "longest": 4,
+      "last_active": "2026-04-02T13:00:00.000Z",
+      "status": "dormant"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "updated": "2026-04-27T06:45:30.701Z",
+  "ranked": [
+    {
+      "rank": 1,
+      "handle": "alice",
+      "hours": 119,
+      "streak": 5,
+      "status": "active",
+      "fold": "7207200"
+    },
+    {
+      "rank": 2,
+      "handle": "bob",
+      "hours": 55,
+      "streak": 3,
+      "status": "active",
+      "fold": "720"
+    },
+    {
+      "rank": 3,
+      "handle": "carol",
+      "hours": 36,
+      "streak": 3,
+      "status": "cooling",
+      "fold": "840"
+    },
+    {
+      "rank": 4,
+      "handle": "dave",
+      "hours": 7,
+      "streak": 0,
+      "status": "dormant",
+      "fold": "4"
+    }
+  ]
+}

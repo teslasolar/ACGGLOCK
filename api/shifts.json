@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-27T06:00:00Z",
+  "shifts": [
+    {
+      "id": "s001",
+      "member": "alice",
+      "type": "review",
+      "clock_in": "2026-04-26T14:00:00Z",
+      "clock_out": "2026-04-26T16:30:00Z",
+      "duration": 150,
+      "domain": ["agentic", "evaluation"],
+      "notes": "Reviewed RFC-014 on tool budget caps.",
+      "forge_ref": "rfc-014"
+    },
+    {
+      "id": "s002",
+      "member": "alice",
+      "type": "roundtable",
+      "clock_in": "2026-04-25T17:00:00Z",
+      "clock_out": "2026-04-25T18:00:00Z",
+      "duration": 60,
+      "domain": ["guild"],
+      "notes": "Weekly guild roundtable.",
+      "forge_ref": null
+    },
+    {
+      "id": "s003",
+      "member": "alice",
+      "type": "author",
+      "clock_in": "2026-04-23T10:00:00Z",
+      "clock_out": "2026-04-23T12:00:00Z",
+      "duration": 120,
+      "domain": ["alignment"],
+      "notes": "Drafted submission on harness invariants.",
+      "forge_ref": "sub-097"
+    },
+    {
+      "id": "s004",
+      "member": "alice",
+      "type": "mentor",
+      "clock_in": "2026-04-21T15:00:00Z",
+      "clock_out": "2026-04-21T16:30:00Z",
+      "duration": 90,
+      "domain": ["onboarding"],
+      "notes": "Walkthrough with new R1 reviewer.",
+      "forge_ref": null
+    },
+    {
+      "id": "s005",
+      "member": "alice",
+      "type": "review",
+      "clock_in": "2026-04-19T13:00:00Z",
+      "clock_out": "2026-04-19T15:00:00Z",
+      "duration": 120,
+      "domain": ["safety"],
+      "notes": "Reviewed safety case for sub-094.",
+      "forge_ref": "sub-094"
+    },
+    {
+      "id": "s006",
+      "member": "alice",
+      "type": "evaluate",
+      "clock_in": "2026-04-15T14:00:00Z",
+      "clock_out": "2026-04-15T16:00:00Z",
+      "duration": 120,
+      "domain": ["evaluation", "agentic"],
+      "notes": "Ran eval set against new candidate harness.",
+      "forge_ref": null
+    },
+    {
+      "id": "s007",
+      "member": "alice",
+      "type": "build",
+      "clock_in": "2026-04-10T12:00:00Z",
+      "clock_out": "2026-04-10T14:00:00Z",
+      "duration": 120,
+      "domain": ["infra"],
+      "notes": "Built ACG-NET manifest validator.",
+      "forge_ref": null
+    },
+    {
+      "id": "s008",
+      "member": "alice",
+      "type": "review",
+      "clock_in": "2026-04-05T16:00:00Z",
+      "clock_out": "2026-04-05T17:30:00Z",
+      "duration": 90,
+      "domain": ["agentic"],
+      "notes": "Reviewed sub-091.",
+      "forge_ref": "sub-091"
+    },
+    {
+      "id": "s009",
+      "member": "alice",
+      "type": "author",
+      "clock_in": "2026-03-30T15:00:00Z",
+      "clock_out": "2026-03-30T17:00:00Z",
+      "duration": 120,
+      "domain": ["alignment", "evaluation"],
+      "notes": "Authored Prime Bloom Standard v1.2 revisions.",
+      "forge_ref": "sub-085"
+    },
+
+    {
+      "id": "s010",
+      "member": "bob",
+      "type": "review",
+      "clock_in": "2026-04-27T03:30:00Z",
+      "clock_out": null,
+      "duration": null,
+      "domain": ["safety"],
+      "notes": "Currently reviewing sub-099.",
+      "forge_ref": "sub-099"
+    },
+    {
+      "id": "s011",
+      "member": "bob",
+      "type": "evaluate",
+      "clock_in": "2026-04-25T10:00:00Z",
+      "clock_out": "2026-04-25T11:30:00Z",
+      "duration": 90,
+      "domain": ["evaluation"],
+      "notes": "Eval rerun after harness patch.",
+      "forge_ref": null
+    },
+    {
+      "id": "s012",
+      "member": "bob",
+      "type": "roundtable",
+      "clock_in": "2026-04-22T16:00:00Z",
+      "clock_out": "2026-04-22T17:00:00Z",
+      "duration": 60,
+      "domain": ["guild"],
+      "notes": "Roundtable + lightning demos.",
+      "forge_ref": null
+    },
+    {
+      "id": "s013",
+      "member": "bob",
+      "type": "review",
+      "clock_in": "2026-04-18T09:00:00Z",
+      "clock_out": "2026-04-18T12:00:00Z",
+      "duration": 180,
+      "domain": ["safety", "agentic"],
+      "notes": "Long review session — sub-088 + sub-089.",
+      "forge_ref": "sub-088"
+    },
+    {
+      "id": "s014",
+      "member": "bob",
+      "type": "author",
+      "clock_in": "2026-04-14T13:00:00Z",
+      "clock_out": "2026-04-14T14:30:00Z",
+      "duration": 90,
+      "domain": ["safety"],
+      "notes": "Drafted threat model addendum.",
+      "forge_ref": "sub-093"
+    },
+
+    {
+      "id": "s015",
+      "member": "carol",
+      "type": "mentor",
+      "clock_in": "2026-04-17T11:00:00Z",
+      "clock_out": "2026-04-17T13:00:00Z",
+      "duration": 120,
+      "domain": ["onboarding", "safety"],
+      "notes": "Onboarding new mentor.",
+      "forge_ref": null
+    },
+    {
+      "id": "s016",
+      "member": "carol",
+      "type": "review",
+      "clock_in": "2026-04-12T14:00:00Z",
+      "clock_out": "2026-04-12T15:30:00Z",
+      "duration": 90,
+      "domain": ["alignment"],
+      "notes": "Reviewed sub-090 with notes.",
+      "forge_ref": "sub-090"
+    },
+    {
+      "id": "s017",
+      "member": "carol",
+      "type": "build",
+      "clock_in": "2026-04-08T10:00:00Z",
+      "clock_out": "2026-04-08T12:30:00Z",
+      "duration": 150,
+      "domain": ["infra"],
+      "notes": "Built shifts.json validator.",
+      "forge_ref": null
+    },
+    {
+      "id": "s018",
+      "member": "carol",
+      "type": "roundtable",
+      "clock_in": "2026-04-02T15:00:00Z",
+      "clock_out": "2026-04-02T16:00:00Z",
+      "duration": 60,
+      "domain": ["guild"],
+      "notes": "Quarterly retrospective.",
+      "forge_ref": null
+    },
+
+    {
+      "id": "s019",
+      "member": "dave",
+      "type": "review",
+      "clock_in": "2026-04-02T13:00:00Z",
+      "clock_out": "2026-04-02T14:30:00Z",
+      "duration": 90,
+      "domain": ["agentic"],
+      "notes": "Reviewed sub-086.",
+      "forge_ref": "sub-086"
+    },
+    {
+      "id": "s020",
+      "member": "dave",
+      "type": "evaluate",
+      "clock_in": "2026-03-28T10:00:00Z",
+      "clock_out": "2026-03-28T11:30:00Z",
+      "duration": 90,
+      "domain": ["evaluation"],
+      "notes": "Last eval before sabbatical.",
+      "forge_ref": null
+    }
+  ]
+}
