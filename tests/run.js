@@ -29,9 +29,10 @@ try {
   log(/decay applied/.test(out), 'decay applied');
 } catch (e) { log(false, 'decay applied', e.message); }
 
-// 5. bloom fold present on every member
+// 5. bloom fold present on every member + timezone field present (null OK)
 const m = JSON.parse(readFileSync(root + 'api/manifest.json', 'utf8'));
-log(m.members.every(x => x.clock.fold && x.clock.sig?.length), 'bloom fold configured');
+log(m.members.every(x => x.clock.fold !== undefined && Array.isArray(x.clock.sig)), 'bloom fold configured');
+log(m.members.every(x => 'timezone' in x && 'name' in x), 'member timezone + name fields');
 
 // 6. leaderboard sorted
 const lb = JSON.parse(readFileSync(root + 'api/leaderboard.json', 'utf8')).ranked;

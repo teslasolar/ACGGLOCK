@@ -1,9 +1,13 @@
 {
-  "version": "1.0.0",
-  "updated": "2026-04-27T06:46:44.811Z",
+  "version": "1.1.0",
+  "updated": "2026-04-27T06:57:20.029Z",
   "members": [
     {
-      "handle": "alice",
+      "handle": "ThomasTheTankEngineer",
+      "name": "Thomas Frumkin",
+      "role": "Protocol Architect",
+      "location": "EST",
+      "timezone": "America/New_York",
       "reviewer_tier": "R2",
       "author_tier": "A1",
       "clock": {
@@ -15,7 +19,7 @@
           12,
           15
         ],
-        "streak": 5,
+        "streak": 3,
         "longest_streak": 12,
         "total_hours": 119,
         "status": "active",
@@ -32,7 +36,61 @@
       }
     },
     {
-      "handle": "bob",
+      "handle": "alex-bunardzic",
+      "name": "Alex Bunardzic",
+      "role": "Founder · Business Velocity Architect",
+      "location": "Pacific (?)",
+      "timezone": "America/Los_Angeles",
+      "reviewer_tier": "R1",
+      "author_tier": "A1",
+      "clock": {
+        "rings": [
+          38,
+          26,
+          20,
+          14,
+          18,
+          10
+        ],
+        "streak": 3,
+        "longest_streak": 11,
+        "total_hours": 126,
+        "status": "active",
+        "fold": "0",
+        "sig": []
+      }
+    },
+    {
+      "handle": "laurie-scheepers",
+      "name": "Laurie Scheepers",
+      "role": "Technical Director · AGI R&D",
+      "location": "Cape Town, South Africa",
+      "timezone": "Africa/Johannesburg",
+      "reviewer_tier": "R2",
+      "author_tier": "A2",
+      "clock": {
+        "rings": [
+          15,
+          8,
+          12,
+          18,
+          6,
+          9
+        ],
+        "streak": 2,
+        "longest_streak": 8,
+        "total_hours": 68,
+        "status": "active",
+        "fold": "0",
+        "sig": []
+      }
+    },
+    {
+      "handle": "matt-burch",
+      "name": "Matt Burch",
+      "role": "Agentic Architect",
+      "location": "Pacific Northwest",
+      "timezone": "America/Los_Angeles",
       "reviewer_tier": "R1",
       "author_tier": "A2",
       "clock": {
@@ -44,25 +102,21 @@
           5,
           10
         ],
-        "streak": 3,
+        "streak": 1,
         "longest_streak": 9,
         "total_hours": 55,
         "status": "active",
-        "fold": "720",
-        "sig": [
-          0,
-          2,
-          1,
-          0,
-          0,
-          0,
-          0
-        ]
+        "fold": "0",
+        "sig": []
       }
     },
     {
-      "handle": "carol",
-      "reviewer_tier": "R3",
+      "handle": "kelly-hohman",
+      "name": "Kelly T. Hohman",
+      "role": "Cultural Architect & Engineer",
+      "location": "Colorado",
+      "timezone": "America/Denver",
+      "reviewer_tier": "R2",
       "author_tier": "A2",
       "clock": {
         "rings": [
@@ -73,26 +127,72 @@
           4,
           3
         ],
-        "streak": 3,
+        "streak": 2,
         "longest_streak": 7,
         "total_hours": 36,
         "status": "cooling",
-        "fold": "840",
-        "sig": [
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0
-        ]
+        "fold": "0",
+        "sig": []
       }
     },
     {
-      "handle": "dave",
+      "handle": "nicolas-rosado",
+      "name": "Nicolas Rosado",
+      "role": "Senior SWE · Meetups Organizer",
+      "location": "?",
+      "timezone": null,
+      "reviewer_tier": "R2",
+      "author_tier": "A2",
+      "clock": {
+        "rings": [
+          4,
+          2,
+          8,
+          6,
+          1,
+          0
+        ],
+        "streak": 1,
+        "longest_streak": 5,
+        "total_hours": 21,
+        "status": "active",
+        "fold": "0",
+        "sig": []
+      }
+    },
+    {
+      "handle": "jona-heidsick",
+      "name": "Jona Heidsick",
+      "role": "Full-Stack · First-Principles Architect",
+      "location": "?",
+      "timezone": null,
       "reviewer_tier": "R1",
-      "author_tier": "A3",
+      "author_tier": "A1",
+      "clock": {
+        "rings": [
+          12,
+          14,
+          4,
+          2,
+          22,
+          6
+        ],
+        "streak": 1,
+        "longest_streak": 8,
+        "total_hours": 60,
+        "status": "cooling",
+        "fold": "0",
+        "sig": []
+      }
+    },
+    {
+      "handle": "tsvetan-tsvetanov",
+      "name": "Tsvetan Tsvetanov",
+      "role": "Lead SWE · Chief Context Officer",
+      "location": "?",
+      "timezone": null,
+      "reviewer_tier": "R1",
+      "author_tier": "A1",
       "clock": {
         "rings": [
           3,
@@ -106,16 +206,8 @@
         "longest_streak": 4,
         "total_hours": 7,
         "status": "dormant",
-        "fold": "4",
-        "sig": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
+        "fold": "0",
+        "sig": []
       }
     }
   ]

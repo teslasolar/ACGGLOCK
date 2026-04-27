@@ -3,6 +3,7 @@ import { mountChrome, loadAll } from './nav.js';
 import { ringsOf, totalHours, activeNow } from './clock-engine.js';
 import { drawClockFace } from './clock-face.js';
 import { renderLeaderboard, renderRecentShifts } from './leaderboard.js';
+import { renderWorldClock } from './world-clock.js';
 
 mountChrome('dash');
 
@@ -36,4 +37,6 @@ mountChrome('dash');
 
   renderLeaderboard(document.getElementById('leaderboard'), members);
   renderRecentShifts(document.getElementById('recent'), shifts, 12);
+  renderWorldClock(document.getElementById('world-clock'), members);
+  setInterval(() => renderWorldClock(document.getElementById('world-clock'), members), 60_000);
 })();

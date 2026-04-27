@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "source": "https://aicraftspeopleguild.github.io/members.html",
+  "note": "Manifesto signatures load dynamically on the ACG site and are not fetchable as static JSON. The 8 founding members below come from the public Members page; broader manifesto signatories should be synced via a future ACG-NET endpoint. Unknown fields are marked '?'.",
+  "updated": "2026-04-27",
+  "signatories": [
+    {
+      "name": "Alex Bunardzic",
+      "handle": "alex-bunardzic",
+      "role": "Founder · Business Velocity Architect",
+      "location": "Pacific (?)",
+      "timezone": "America/Los_Angeles",
+      "tier_guess": "R1 / A1",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Thomas Frumkin",
+      "handle": "ThomasTheTankEngineer",
+      "role": "Protocol Architect",
+      "location": "EST",
+      "timezone": "America/New_York",
+      "tier_guess": "R2 / A1",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Laurie Scheepers",
+      "handle": "laurie-scheepers",
+      "role": "Technical Director · AGI R&D",
+      "location": "Cape Town, South Africa",
+      "timezone": "Africa/Johannesburg",
+      "tier_guess": "R2 / A2",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Jona Heidsick",
+      "handle": "jona-heidsick",
+      "role": "Full-Stack · First-Principles Architect",
+      "location": "?",
+      "timezone": null,
+      "timezone_guess": "Europe (?)",
+      "tier_guess": "R1 / A1",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Matt Burch",
+      "handle": "matt-burch",
+      "role": "Agentic Architect",
+      "location": "Pacific Northwest",
+      "timezone": "America/Los_Angeles",
+      "tier_guess": "R1 / A2",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Nicolas Rosado",
+      "handle": "nicolas-rosado",
+      "role": "Senior SWE · Meetups Organizer",
+      "location": "?",
+      "timezone": null,
+      "timezone_guess": "Americas (?)",
+      "tier_guess": "R2 / A2",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Kelly T. Hohman",
+      "handle": "kelly-hohman",
+      "role": "Cultural Architect & Engineer",
+      "location": "Colorado",
+      "timezone": "America/Denver",
+      "tier_guess": "R2 / A2",
+      "manifesto_signed": true,
+      "founder": true
+    },
+    {
+      "name": "Tsvetan Tsvetanov",
+      "handle": "tsvetan-tsvetanov",
+      "role": "Lead SWE · Chief Context Officer",
+      "location": "?",
+      "timezone": null,
+      "timezone_guess": "Europe (?)",
+      "tier_guess": "R1 / A1",
+      "manifesto_signed": true,
+      "founder": true
+    }
+  ],
+  "pending_signatories": [
+    { "name": "?", "handle": "?", "timezone": null, "note": "ACG manifesto signatures load dynamically — sync TBD." }
+  ]
+}

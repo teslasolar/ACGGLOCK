@@ -1,33 +1,61 @@
 {
-  "version": "1.0.0",
-  "updated": "2026-04-27T06:46:44.811Z",
+  "version": "1.1.0",
+  "updated": "2026-04-27T06:57:20.029Z",
   "streaks": [
     {
-      "member": "alice",
-      "current": 5,
+      "member": "ThomasTheTankEngineer",
+      "current": 3,
       "longest": 12,
       "last_active": "2026-04-26T14:00:00.000Z",
       "status": "active"
     },
     {
-      "member": "bob",
+      "member": "alex-bunardzic",
       "current": 3,
-      "longest": 9,
+      "longest": 11,
       "last_active": "2026-04-27T03:30:00.000Z",
       "status": "active"
     },
     {
-      "member": "carol",
-      "current": 3,
+      "member": "laurie-scheepers",
+      "current": 2,
+      "longest": 8,
+      "last_active": "2026-04-26T08:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "member": "matt-burch",
+      "current": 1,
+      "longest": 9,
+      "last_active": "2026-04-24T19:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "member": "kelly-hohman",
+      "current": 2,
       "longest": 7,
-      "last_active": "2026-04-17T11:00:00.000Z",
+      "last_active": "2026-04-17T17:00:00.000Z",
       "status": "cooling"
     },
     {
-      "member": "dave",
-      "current": 2,
+      "member": "nicolas-rosado",
+      "current": 1,
+      "longest": 5,
+      "last_active": "2026-04-23T22:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "member": "jona-heidsick",
+      "current": 1,
+      "longest": 8,
+      "last_active": "2026-04-14T10:00:00.000Z",
+      "status": "cooling"
+    },
+    {
+      "member": "tsvetan-tsvetanov",
+      "current": 1,
       "longest": 4,
-      "last_active": "2026-04-02T13:00:00.000Z",
+      "last_active": "2026-03-28T10:00:00.000Z",
       "status": "dormant"
     }
   ]

@@ -16,6 +16,13 @@ shifts_schema:
   path: api/shifts.json
   fields: [id, member, type, clock_in, clock_out, duration, domain]
 
+member_schema:
+  expect: configured
+  reason: "manifest members must include name, handle, timezone (null = unknown)"
+  check: schema
+  path: api/manifest.json
+  fields: [handle, name, role, location, timezone, clock]
+
 streak_calc:
   expect: triggered
   reason: "streak computation must run on every tick"

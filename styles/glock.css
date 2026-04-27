@@ -429,3 +429,30 @@ table.data-table {
   color: var(--muted);
 }
 .banner .gold { color: var(--gold); }
+
+/* ---------- World Clock ---------- */
+.world-clock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+.wc-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 2fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.78rem;
+}
+.wc-tz   { color: var(--muted); }
+.wc-time { font-weight: 600; }
+.wc-names { display: flex; flex-wrap: wrap; gap: 0.25rem; justify-content: flex-end; }
+.wc-member .status-pill { font-size: 0.62rem; padding: 0.05rem 0.4rem; }
+@media (max-width: 720px) {
+  .wc-row { grid-template-columns: 1fr; }
+  .wc-names { justify-content: flex-start; }
+}
