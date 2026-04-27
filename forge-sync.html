@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>⚒ Forge Sync · GLOCK</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/glock.css">
+</head>
+<body>
+<main class="glock-main">
+
+<h1>⚒ Forge Sync</h1>
+
+<div class="banner">
+  Maps <span class="gold">Review Forge</span> events to GLOCK shifts. The reviewer who spent <span class="gold">3 hours</span> on your paper deserves to have that visible.
+</div>
+
+<div class="grid grid-3">
+  <div class="card">
+    <div class="card-title">Avg time per review</div>
+    <div class="stat-value" id="m-tpr">—</div>
+    <div class="muted mono">across all members</div>
+  </div>
+  <div class="card">
+    <div class="card-title">Avg time per submission</div>
+    <div class="stat-value" id="m-tps">—</div>
+    <div class="muted mono">authoring shifts grouped by ref</div>
+  </div>
+  <div class="card">
+    <div class="card-title">Forge connection</div>
+    <div class="stat-value mono" id="m-fc">—</div>
+    <div class="muted mono">ACG-NET forge.json</div>
+  </div>
+</div>
+
+<section class="card spacer">
+  <div class="card-title">Review velocity (per month)</div>
+  <table class="data-table">
+    <thead><tr><th>Month</th><th>Reviews</th></tr></thead>
+    <tbody id="velo"></tbody>
+  </table>
+</section>
+
+<section class="card spacer">
+  <div class="card-title">Linked shifts ↔ forge events</div>
+  <table class="data-table">
+    <thead><tr><th>Forge ref</th><th>Member</th><th>Type</th><th>Hrs</th><th>Notes</th></tr></thead>
+    <tbody id="linked"></tbody>
+  </table>
+</section>
+
+</main>
+<script type="module" src="src/main-forge.js"></script>
+</body>
+</html>

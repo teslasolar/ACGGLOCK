@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>⚒ GLOCK · Guild Clock</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/glock.css">
+</head>
+<body>
+<main class="glock-main">
+
+<div class="banner">
+  <span class="gold">⚒ GLOCK</span> tracks <span class="gold">when</span>, <span class="gold">how long</span>, and <span class="gold">how consistently</span> the guild contributes. The repo is the clock; every commit is a tick.
+</div>
+
+<div class="grid grid-2-1">
+  <section class="card">
+    <div class="card-title">Guild Clock</div>
+    <div class="clock-wrap">
+      <canvas id="guild-face" width="380" height="380" style="width:380px"></canvas>
+      <div class="clock-meta">
+        <span id="active-now"><span class="live-dot"></span>0 active now</span> ·
+        total <span class="gold" id="total-hours">0h</span>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Members</div><div class="stat-value" id="stat-members">0</div></div>
+      <div class="stat"><div class="stat-label">Today</div><div class="stat-value" id="stat-today">0h</div></div>
+      <div class="stat"><div class="stat-label">7d</div><div class="stat-value" id="stat-week">0h</div></div>
+      <div class="stat"><div class="stat-label">Best Streak</div><div class="stat-value" id="stat-best">0w</div></div>
+    </div>
+  </section>
+
+  <aside class="grid">
+    <section class="card">
+      <div class="card-title">Leaderboard</div>
+      <ul class="list leaderboard" id="leaderboard"></ul>
+    </section>
+    <section class="card">
+      <div class="card-title">Recent Shifts</div>
+      <ul class="list" id="recent"></ul>
+    </section>
+  </aside>
+</div>
+
+</main>
+<script type="module" src="src/main-dash.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>⚒ Shifts · GLOCK</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/glock.css">
+</head>
+<body>
+<main class="glock-main">
+
+<h1>⚒ Shifts</h1>
+<p class="muted mono">guild-wide calendar · empty days are visible gaps</p>
+
+<section class="card">
+  <div class="row" style="margin-bottom:0.8rem">
+    <label class="mono muted">filter:</label>
+    <select id="f-member"><option value="">all members</option></select>
+    <select id="f-type">
+      <option value="">all types</option>
+      <option>review</option><option>author</option>
+      <option>roundtable</option><option>mentor</option>
+      <option>build</option><option>evaluate</option>
+    </select>
+    <span class="mono muted" id="f-summary"></span>
+  </div>
+  <div id="cal" style="position:relative">
+    <div class="cal-grid" id="cal-grid"></div>
+    <div class="tip" id="tip"></div>
+  </div>
+</section>
+
+<section class="card spacer">
+  <div class="card-title">Upcoming Scheduled Shifts</div>
+  <ul class="list" id="scheduled"></ul>
+</section>
+
+<section class="card spacer">
+  <div class="card-title">All Shifts</div>
+  <table class="data-table" id="all">
+    <thead><tr>
+      <th>Member</th><th>Type</th><th>In</th><th>Out</th><th>Hrs</th><th>Domain</th><th>Forge</th>
+    </tr></thead>
+    <tbody id="all-body"></tbody>
+  </table>
+</section>
+
+</main>
+<script type="module" src="src/main-shifts.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>⚒ My Clock · GLOCK</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/glock.css">
+</head>
+<body>
+<main class="glock-main">
+
+<h1>⚒ My Clock <span class="muted mono" style="font-size:0.7em">· <span id="who">guest</span></span></h1>
+
+<div class="grid grid-2">
+  <section class="card">
+    <div class="card-title">Personal Face</div>
+    <div class="clock-wrap">
+      <canvas id="me-face" width="320" height="320" style="width:320px"></canvas>
+      <div class="clock-meta">
+        streak <span class="gold" id="me-streak">🔥0</span> ·
+        fold <span class="gold mono" id="me-fold">0</span>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="form-row">
+      <label>Member handle</label>
+      <input id="f-member" placeholder="github handle" autocomplete="off">
+    </div>
+    <div class="form-row">
+      <label>Type</label>
+      <select id="f-type">
+        <option value="review">review</option>
+        <option value="author">author</option>
+        <option value="roundtable">roundtable</option>
+        <option value="mentor">mentor</option>
+        <option value="build">build</option>
+        <option value="evaluate">evaluate</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label>Domain (comma-sep)</label>
+      <input id="f-domain" placeholder="agentic, safety">
+    </div>
+    <div class="form-row">
+      <label>Notes</label>
+      <input id="f-notes" placeholder="optional">
+    </div>
+    <div class="form-row">
+      <label>Forge ref</label>
+      <input id="f-ref" placeholder="rfc-014 / sub-099">
+    </div>
+    <div class="row">
+      <button id="btn-in">Clock In</button>
+      <button id="btn-out" class="secondary" disabled>Clock Out</button>
+      <span id="live-meta" class="muted mono"></span>
+    </div>
+    <div id="msg" class="muted mono spacer"></div>
+  </section>
+
+  <aside class="grid">
+    <section class="card">
+      <div class="card-title">Session Log</div>
+      <ul class="list" id="session-log"></ul>
+    </section>
+    <section class="card">
+      <div class="card-title">Achievements</div>
+      <div id="achievements"></div>
+    </section>
+  </aside>
+</div>
+
+</main>
+<script type="module" src="src/main-clock.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+# GLOCK Core Tests · ACG-TEST format
+name: GLOCK Core Tests
+workflow: tick.yml
+category: Specification
+
+exists:
+  expect: present
+  reason: "tick.yml must exist to run daily"
+  check: file
+  path: .github/workflows/tick.yml
+
+shifts_schema:
+  expect: configured
+  reason: "shifts.json must validate against Shift UDT"
+  check: schema
+  path: api/shifts.json
+  fields: [id, member, type, clock_in, clock_out, duration, domain]
+
+streak_calc:
+  expect: triggered
+  reason: "streak computation must run on every tick"
+  check: cli
+  cmd: "node src/tick.js --streaks"
+  expect_output: "streaks recomputed"
+
+decay_applied:
+  expect: triggered
+  reason: "dormant members must be flagged after 15 days"
+  check: cli
+  cmd: "node src/tick.js --decay"
+  expect_output: "decay applied"
+
+bloom_fold:
+  expect: configured
+  reason: "every member clock must produce a valid fold"
+  check: bloom
+  path: api/manifest.json
+  field: clock.fold
+
+leaderboard_sorted:
+  expect: present
+  reason: "leaderboard must be sorted by hours then streak"
+  check: ordering
+  path: api/leaderboard.json
+  by: [hours desc, streak desc]
+
+anti_gaming:
+  expect: configured
+  reason: "max 12h, min 5m, no overlaps, no untyped shifts"
+  check: rules
+  path: api/config.json
+  rules:
+    - max_shift_minutes == 720
+    - min_shift_minutes == 5
+    - same_type_cooldown_minutes == 30
+    - type_required == true
+    - overlap_allowed == false
+    - future_dates_allowed == false
+
+guardrails:
+  - expect: not triggered
+    reason: "self-clocking for another member must be impossible"
+    check: punch
+    case: cross_member
+  - expect: not triggered
+    reason: "future-dated shifts must be rejected"
+    check: punch
+    case: future_date

@@ -1,0 +1,16 @@
+{
+  "name": "acgglock",
+  "version": "1.0.0",
+  "description": "⚒ GLOCK — AI Craftspeople Guild Clock",
+  "type": "module",
+  "scripts": {
+    "tick":        "node src/tick.js --all",
+    "streaks":     "node src/tick.js --streaks",
+    "decay":       "node src/tick.js --decay",
+    "leaderboard": "node src/tick.js --leaderboard",
+    "bloom":       "node src/tick.js --bloom",
+    "test":        "node tests/run.js",
+    "serve":       "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
