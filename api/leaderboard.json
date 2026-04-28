@@ -1,33 +1,65 @@
 {
-  "updated": "2026-04-27T06:45:30.701Z",
+  "updated": "2026-04-28T06:53:57.362Z",
   "ranked": [
     {
       "rank": 1,
-      "handle": "alice",
+      "handle": "alex-bunardzic",
+      "hours": 126,
+      "streak": 3,
+      "status": "active",
+      "fold": "332640"
+    },
+    {
+      "rank": 2,
+      "handle": "ThomasTheTankEngineer",
       "hours": 119,
-      "streak": 5,
+      "streak": 3,
       "status": "active",
       "fold": "7207200"
     },
     {
-      "rank": 2,
-      "handle": "bob",
+      "rank": 3,
+      "handle": "laurie-scheepers",
+      "hours": 68,
+      "streak": 2,
+      "status": "active",
+      "fold": "5040"
+    },
+    {
+      "rank": 4,
+      "handle": "jona-heidsick",
+      "hours": 60,
+      "streak": 1,
+      "status": "cooling",
+      "fold": "3960"
+    },
+    {
+      "rank": 5,
+      "handle": "matt-burch",
       "hours": 55,
-      "streak": 3,
+      "streak": 1,
       "status": "active",
       "fold": "720"
     },
     {
-      "rank": 3,
-      "handle": "carol",
+      "rank": 6,
+      "handle": "kelly-hohman",
       "hours": 36,
-      "streak": 3,
+      "streak": 2,
       "status": "cooling",
       "fold": "840"
     },
     {
-      "rank": 4,
-      "handle": "dave",
+      "rank": 7,
+      "handle": "nicolas-rosado",
+      "hours": 21,
+      "streak": 1,
+      "status": "active",
+      "fold": "420"
+    },
+    {
+      "rank": 8,
+      "handle": "tsvetan-tsvetanov",
       "hours": 7,
       "streak": 0,
       "status": "dormant",

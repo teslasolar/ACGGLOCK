@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "updated": "2026-04-27T06:57:20.029Z",
+  "updated": "2026-04-28T06:53:57.366Z",
   "members": [
     {
       "handle": "ThomasTheTankEngineer",
@@ -56,8 +56,16 @@
         "longest_streak": 11,
         "total_hours": 126,
         "status": "active",
-        "fold": "0",
-        "sig": []
+        "fold": "332640",
+        "sig": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
       }
     },
     {
@@ -81,8 +89,16 @@
         "longest_streak": 8,
         "total_hours": 68,
         "status": "active",
-        "fold": "0",
-        "sig": []
+        "fold": "5040",
+        "sig": [
+          0,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -106,8 +122,16 @@
         "longest_streak": 9,
         "total_hours": 55,
         "status": "active",
-        "fold": "0",
-        "sig": []
+        "fold": "720",
+        "sig": [
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -131,8 +155,16 @@
         "longest_streak": 7,
         "total_hours": 36,
         "status": "cooling",
-        "fold": "0",
-        "sig": []
+        "fold": "840",
+        "sig": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -156,8 +188,16 @@
         "longest_streak": 5,
         "total_hours": 21,
         "status": "active",
-        "fold": "0",
-        "sig": []
+        "fold": "420",
+        "sig": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -181,8 +221,16 @@
         "longest_streak": 8,
         "total_hours": 60,
         "status": "cooling",
-        "fold": "0",
-        "sig": []
+        "fold": "3960",
+        "sig": [
+          1,
+          2,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
       }
     },
     {
@@ -206,8 +254,16 @@
         "longest_streak": 4,
         "total_hours": 7,
         "status": "dormant",
-        "fold": "0",
-        "sig": []
+        "fold": "4",
+        "sig": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     }
   ]
