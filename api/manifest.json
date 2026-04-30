@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "updated": "2026-04-29T06:49:17.512Z",
+  "updated": "2026-04-30T06:51:44.799Z",
   "members": [
     {
       "handle": "ThomasTheTankEngineer",
@@ -217,10 +217,10 @@
           22,
           6
         ],
-        "streak": 1,
+        "streak": 0,
         "longest_streak": 8,
         "total_hours": 60,
-        "status": "cooling",
+        "status": "dormant",
         "fold": "3960",
         "sig": [
           1,

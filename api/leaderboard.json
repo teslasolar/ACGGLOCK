@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-29T06:49:17.509Z",
+  "updated": "2026-04-30T06:51:44.795Z",
   "ranked": [
     {
       "rank": 1,
@@ -29,8 +29,8 @@
       "rank": 4,
       "handle": "jona-heidsick",
       "hours": 60,
-      "streak": 1,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "3960"
     },
     {
