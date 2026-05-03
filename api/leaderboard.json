@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02T06:38:29.922Z",
+  "updated": "2026-05-03T06:50:47.249Z",
   "ranked": [
     {
       "rank": 1,
@@ -45,8 +45,8 @@
       "rank": 6,
       "handle": "kelly-hohman",
       "hours": 36,
-      "streak": 2,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "840"
     },
     {
