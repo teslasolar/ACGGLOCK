@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-03T06:50:47.249Z",
+  "updated": "2026-05-04T07:01:19.385Z",
   "ranked": [
     {
       "rank": 1,
       "handle": "alex-bunardzic",
       "hours": 126,
       "streak": 3,
-      "status": "active",
+      "status": "cooling",
       "fold": "332640"
     },
     {
@@ -14,7 +14,7 @@
       "handle": "ThomasTheTankEngineer",
       "hours": 119,
       "streak": 3,
-      "status": "active",
+      "status": "cooling",
       "fold": "7207200"
     },
     {
@@ -22,7 +22,7 @@
       "handle": "laurie-scheepers",
       "hours": 68,
       "streak": 2,
-      "status": "active",
+      "status": "cooling",
       "fold": "5040"
     },
     {

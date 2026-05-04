@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "updated": "2026-05-03T06:50:47.252Z",
+  "updated": "2026-05-04T07:01:19.389Z",
   "members": [
     {
       "handle": "ThomasTheTankEngineer",
@@ -22,7 +22,7 @@
         "streak": 3,
         "longest_streak": 12,
         "total_hours": 119,
-        "status": "active",
+        "status": "cooling",
         "fold": "7207200",
         "sig": [
           1,
@@ -55,7 +55,7 @@
         "streak": 3,
         "longest_streak": 11,
         "total_hours": 126,
-        "status": "active",
+        "status": "cooling",
         "fold": "332640",
         "sig": [
           1,
@@ -88,7 +88,7 @@
         "streak": 2,
         "longest_streak": 8,
         "total_hours": 68,
-        "status": "active",
+        "status": "cooling",
         "fold": "5040",
         "sig": [
           0,
