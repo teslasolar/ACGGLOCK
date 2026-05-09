@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T06:35:50.243Z",
+  "updated": "2026-05-09T06:42:27.430Z",
   "ranked": [
     {
       "rank": 1,
@@ -53,8 +53,8 @@
       "rank": 7,
       "handle": "nicolas-rosado",
       "hours": 21,
-      "streak": 1,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "420"
     },
     {
