@@ -1,28 +1,28 @@
 {
-  "updated": "2026-05-11T07:10:25.740Z",
+  "updated": "2026-05-12T06:57:29.606Z",
   "ranked": [
     {
       "rank": 1,
       "handle": "alex-bunardzic",
       "hours": 126,
-      "streak": 3,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "332640"
     },
     {
       "rank": 2,
       "handle": "ThomasTheTankEngineer",
       "hours": 119,
-      "streak": 3,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "7207200"
     },
     {
       "rank": 3,
       "handle": "laurie-scheepers",
       "hours": 68,
-      "streak": 2,
-      "status": "cooling",
+      "streak": 0,
+      "status": "dormant",
       "fold": "5040"
     },
     {
